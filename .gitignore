@@ -6,3 +6,4 @@ src/__pycache__
 .vscode
 .venv
 airflow/dags/__pycache__
+.DS_Store
