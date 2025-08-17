@@ -65,7 +65,7 @@ def test_upload_to_s3_success(mocker):
     upload_to_s3(test_data)
 
     mock_s3_client.put_object.assert_called_once_with(
-        Bucket="test-bucket",
+        Bucket="people-test00100",
         Key="raw_data/people_data.json",
         Body=json.dumps(test_data),
         ContentType='application/json'
